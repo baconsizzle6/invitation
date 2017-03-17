@@ -1,0 +1,83 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	margin: 0 auto;
+	min-width: 200px;
+	padding: 10px;
+	font-size: 16px;
+}
+
+
+.image {
+	max-width: 800px;
+	height: 500px;
+	background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .4)),url("../img/cuba.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	margin: 0 auto;
+}
+
+.details-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin:0 auto;
+}
+.details{
+	padding: 0 0 65px;
+}
+.details  p{
+	text-transform: uppercase;
+	letter-spacing: 2px; 
+	font-size: 1.2em;
+	text-align: center;
+	padding: 0 10px 15px;
+	line-height: 1.5em;
+}
+.details .bold {
+	font-size: 1.5em;
+	font-weight: 500;
+}
+.btn {
+	color: #fff;
+	border: 2px solid #bb8087;
+	cursor: pointer;
+	width: 90px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 15px 20px;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.btn:hover, .btn:active {
+	background-color: #bb8087;
+}
+
+/*MEDIA QUERIES*/
+
+
+
+/* TABLET STYLES */
+@media (min-width:768px) {
+	.title { 
+		font-size: 2.8em;
+	}
+
+	.details p {
+		font-size: 1.8em;
+	}
+
+}
+
+
+
+
+
+
+
+
+
